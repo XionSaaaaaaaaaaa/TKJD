@@ -1,42 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Administrasi Sistem Jaringan XII TKJ D </title>
-	<link rel="stylesheet" type="text/css" href="css.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Profile</title>
+  <link rel="stylesheet" href="css.css"/>
 </head>
 <body>
-	<div class="column1">
-	<div class="box1">
-	<img src="">
-	<p>Nafis</p>
-	<p>XII TKJ-D</p>
-	</div>
 
-	<div class="box2">
-	<div class="inbox">
-	<span class="label">Full Name</span>
-	<span class="Value">Nafis Ramadhan</span>
-</div>
-	<div class="inbox">
-	<span class="label">Age</span>
-	<span class="Value">18</span>
-</div>
-	<div class="inbox">
-	<span class="label">Cita cita</span>
-	<span class="Value">Punya Restoran 200 Cabang</span>
-</div>
-	<div class="inbox">
-	<span class="label">Hobi</span>
-	<span class="Value">Playing Games Survival Open World</span>
-</div>
-	</div>
+  <div class="breadcrumb">
+    <a href="#">Home</a> / <a href="#">User</a> / <span>User Profile</span>
+  </div>
 
-	<div class="box3">
-		<img src="">
-		<p></p>
-	</div>
+  <!-- Wrapper utama -->
+  <div class="profile-wrapper">
+
+    <!-- Kiri: Profil, Social Media -->
+    <div class="left-panel">
+      <div class="profile-card">
+        <img src="awok.jpg" alt="Profile" class="avatar">
+        <h2>Nafis</h2>
+        <p class="role">Full Stack Developer (Aamin)</p>
+        <p class="location">Jagarkasa, Jakarta Selatan</p>
+        <div class="buttons">
+          <button class="follow">Follow</button>
+          <button class="message">Message</button>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <ul>
+          <li><span>🌐 Website</span> <a href="#">https://napis.com</a></li>
+          <li><span>🐱 Github</span> <a href="#">napis</a></li>
+          <li><span>🐦 Twitter</span> <a href="#">@napis</a></li>
+          <li><span>📸 Instagram</span> <a href="#">napis</a></li>
+          <li><span>📘 Facebook</span> <a href="#">napis</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="right-panel">
+
+      <div class="info-card">
+        <table>
+          <tr>
+            <td><strong>Full Name</strong></td>
+            <td>Nafis Ramadhan</td>
+          </tr>
+          <tr>
+            <td><strong>Age</strong></td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td><strong>Cita Cita</strong></td>
+            <td>Administrasi server</td>
+          </tr>
+          <tr>
+            <td><strong>Hobi</strong></td>
+            <td>Playing Games Survival Openworld</td>
+          </tr>
+          <tr>
+            <td><strong>Email</strong></td>
+            <td>napis_10@gmail.com</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="skills-section">
+        <div class="skill-card">
+          <h4><em>assignment</em> Project Status</h4>
+
+          <div class="skill">
+            <label>Web Design</label>
+            <div class="bar"><div style="width: 80%"></div></div>
+          </div>
+          <div class="skill">
+            <label>Website Markup</label>
+            <div class="bar"><div style="width: 72%"></div></div>
+          </div>
+          <div class="skill">
+            <label>One Page</label>
+            <div class="bar"><div style="width: 89%"></div></div>
+          </div>
+          <div class="skill">
+            <label>Mobile Template</label>
+            <div class="bar"><div style="width: 55%"></div></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
 </body>
-
 </html>

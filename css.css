@@ -1,0 +1,43 @@
+body{
+	background-color: #DDDAD0;
+}
+
+.column1{
+	display: flex;
+}
+
+.box1{
+	background-color: #f9fbfd;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	width: 300px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	font-family: Arial, sans-serif;
+
+}
+
+.box2{
+	background-color: white;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	width: 900px;
+}
+
+.inbox{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.label {
+	font-weight: 600;
+	color: #333;
+}
+
+.value {
+ 	color: #555;
+ 	text-align: center;
+}
